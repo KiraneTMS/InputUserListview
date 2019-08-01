@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".latihan1">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:gravity="center"
+              android:padding="8dp"
+              android:textSize="25sp"
+              android:text="Menjumlahkan Bilangan"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:text="Masukan bilangan pertama"/>
+    <EditText android:id="@+id/edt_bilA" android:layout_width="245dp" android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:text="Masukan bilangan Kedua"/>
+    <EditText android:id="@+id/edt_bilB" android:layout_width="245dp" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btn_hitung"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"
+            android:text="Hitungan Bilangan"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"
+              android:text="Hasil Penjumlahan" android:textSize="20sp"
+              android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+    <EditText android:id="@+id/edt_hasil"
+              android:layout_width="100dp" android:layout_height="wrap_content" android:layout_gravity="center"/>
+</LinearLayout>
